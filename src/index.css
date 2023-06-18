@@ -8,11 +8,7 @@
 body {
     font-family: 'Rubik', sans-serif;
 }
-nav .logo {
-    color: #574945;
-    font-family: Sacramento, cursive;
-    font-size: 30px;
-}
+
 ::selection {
     background-color: #0ea5e9;
     color: #f0f9ff;
@@ -30,4 +26,14 @@ nav .logo {
 
 ::-webkit-scrollbar-track {
     background-color: #fff1f2;
+}
+nav .logo {
+    color: #574945;
+    font-family: Sacramento, cursive;
+    font-size: 30px;
+}
+footer .footerlogo {
+    font-size: 30px;
+    color: #574945;
+    font-family: Sacramento, cursive;
 }
