@@ -1,3 +1,4 @@
+import FryingPan from './FryingPan';
 import Recipe from './Recipe';
 import { CgSpinner } from 'react-icons/cg';
 
@@ -9,6 +10,7 @@ const Home = ({ recipes, loading, error }) => {
                     <p className="text-2xl lg:text-4xl font-semibold text-rose-300">
                         Nothing to show, please search something!
                     </p>
+                    <FryingPan />
                 </div>
             ) : null}
 
